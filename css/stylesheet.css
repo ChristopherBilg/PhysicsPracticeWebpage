@@ -1,0 +1,96 @@
+/* IMPORTING CUSTOM FONTS */
+@font-face {
+	font-family: "Fantasy";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Fantasy"), url(../font/fantasy.woff) format("woff");
+}
+
+/* MAIN TAGS */
+* {
+	-webkit-user-select: none; /* Chrome / Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE */
+	-o-user-select: none; /* Opera */
+	user-select: none; /* Default */
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: rgb(40, 40, 40);
+	color: rgb(255, 255, 255);
+	font-family: "Fantasy", Arial;
+	height: 100%;
+	margin: auto;
+}
+
+a.pointer {
+	cursor: pointer;
+}
+
+a, a:link, a:visited {
+	color: rgb(155, 155, 155);
+	text-decoration: none;
+	outline: none;
+}
+	
+a:hover, a:focus, a:active {
+	color: rgb(255, 255, 255);
+}
+
+span {
+	color: rgb(155, 155, 155);
+}
+
+hr {
+	width: 50%;
+	border: 0;
+	height: .025em;
+}
+
+form {
+	font-size: .75em;
+}
+
+/* ID and CLASS */
+.wrap {
+	display: table;
+	width: 100%;
+	height: 50%;
+	margin-bottom: -3.5em;
+	min-height: 4em;
+}
+
+#intro {
+	font-size: 1.25em;
+	text-align: center;
+	width: 100%;
+	padding-top: 3.5em;
+}
+
+#sentence {
+	font-size: 2em;
+	text-align: center;
+	vertical-align: top;
+	display: table-cell;
+}
+
+#credits {
+	font-size: 1.25em;
+	text-align: center;
+	width: 100%;
+}
+
+#contactSubmit {
+	border-radius: .25em;
+	font-size: .75em;
+}
+
+/* For use with FireFly only. */
+div {
+	position: relative;
+	z-index: 1000;
+}

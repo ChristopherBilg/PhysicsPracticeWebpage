@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		
+		<!-- VARIOUS NON-ESSENTIAL INSERTS -->
+		<title>Physics Practice</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Christopher Richard Bilger - Glumpz" />
+		
+		<link rel="shortcut icon" href="./img/feynman_diagram.ico" />
+		<link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
+		
+	</head>
+	
+	<body>
+		
+		<!-- INTRODUCTION, AT TOP OF PAGE -->
+		<div class="wrap">
+			
+			<div id="intro">
+				
+				<span><span id="changeIntro" onmouseover="mouseOverIntro()" onmouseout="mouseOutIntro()">Glumpz's</span> Physics - </span>
+				A fun, <strike>yet serious</strike>, physics practice website<span>.</span>
+				
+				<div id="monthly">Please enable JavaScript on this webpage.</div>
+				
+			</div>
+			
+		</div>
+		
+		<!-- RANDOMLY GENERATED SENTENCE, IN MIDDLE OF PAGE -->
+		<div class="wrap">
+			
+			<div id="sentence"><a class="pointer" onclick="javascipt:generate();">Click to begin practicing basic physics terminology.</a></div>
+			
+		</div>
+		
+		<!-- CREDITS, AT BOTTOM OF PAGE -->
+		<div id="credits">
+			
+			&copy; <span id="changeCredits" onmouseover="mouseOverCredits()" onmouseout="mouseOutCredits()">Glumpz</span></a><span id="year"></span>
+			<br />
+			<a class="pointer" onclick="openContact();">Contact</a>,
+			<a class="pointer" onclick="openRedditScience();">/r/Science:'Physics'</a>,
+			<a class="pointer" onclick="restartList();">Restart</a>,
+			<a class="pointer" onclick="randomizeList();">Randomize</a>
+			
+		</div>
+		
+		<!-- LOAD IN THE JAVASCRIPT FILE(S) -->
+		<script type="text/javascript" src="./js/colors.js"></script>
+		<script type="text/javascript" src="./js/generatorArrays.js"></script>
+		<script type="text/javascript" src="./js/generator.js"></script>
+		<script type="text/javascript" src="./js/credits.js"></script>
+		
+		<script type="text/javascript" src="./js/lib/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/lib/firefly.js"></script>
+		<script type="text/javascript" src="./js/lib/jquery.particleground.min.js"></script>
+		
+		<script type="text/javascript" src="./js/animation.js"></script>
+		
+	</body>
+	
+</html>
